@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Rec Movies</title>
+  </head>
+  <body class="p-4 bg-black">
+    <div class="container text-white">
+      <nav>
+        <div class="logo text-2xl font-large font-semibold">movo</div>
+
+        <div class="nav-links font-medium">
+          <a href="">Home</a>
+          <a href="">Movies</a>
+          <a href="">Shows</a>
+          <a
+            href=""
+            class="border border-red-500 rounded-lg p-2 text-white bg-red-500"
+            >Sign Up</a
+          >
+        </div>
+      </nav>
+
+      <div class="header mt-4">
+        <div class="header-section m-4">
+          <div class="header-text">
+            <p class="uppercase text-red-400">Don't know what to watch?</p>
+            <br />
+            <h2 class="text-5xl font-bold">
+              Get movie recommendations <br />from the best movies of all time
+            </h2>
+            <br />
+            <p class="">Start your search now</p>
+            <br /><br />
+            <div class="action-buttons">
+              <button class="btn border p-3" id="search">Find Movies</button>
+              <input
+                type="text"
+                placeholder="enter movie genre"
+                class="rounded-sm p-3 text-black"
+                id="input"
+              />
+            </div>
+          </div>
+          <div class="header-img" id="img">
+            <img
+              src="images/dune.jpg"
+              alt=""
+              class="w-96 border-black rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="output"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.nav-links a {
+  margin-right: 20px;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#output {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 7px;
+}
+.movie-span {
+  font-size: 0.7em;
+  display: inline;
+  margin-left: 5px;
+}
+.card {
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 10px;
+}
+.movie-img {
+  width: 100px;
+  margin-left: 5px;
+}
+.movie-title {
+  font-size: 1.5em;
+  margin-left: 5px;
+  font-weight: 600;
+}

@@ -44,3 +44,7 @@ nav {
   margin-left: 5px;
   font-weight: 600;
 }
+#search:hover{
+  border: 1px solid red;
+  background-color: red;
+}
